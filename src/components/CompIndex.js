@@ -1,6 +1,7 @@
 import React from 'react'
 // import CondRender from './CondRender'
 import HocIndex from './HOC/HocIndex'
+import RendIndex from './RenderProps/RendIndex'
 // import LifeIndex from './LifecycleMethods/LifeIndex'
 // import ListMap from './ListRender/ListMap'
 // import PortalsComp from './PortalsComp'
@@ -17,7 +18,8 @@ function CompIndex() {
             {/* <ParentComp /> */}
             {/* <RefIndex /> */}
             {/* <PortalsComp /> */}
-            <HocIndex />
+            {/* <HocIndex /> */}
+            <RendIndex />
         </div>
     )
 }
