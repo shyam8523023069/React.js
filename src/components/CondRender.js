@@ -30,7 +30,7 @@ class CondRender extends Component {
         // return(
         //     <div>Hello: {msg}</div>
         // )
-
+ 
 // // if else statement
 
         // if(this.state.isLoggedin){
