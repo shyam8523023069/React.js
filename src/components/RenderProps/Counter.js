@@ -34,28 +34,17 @@
 
 
 import React, { Component } from 'react'
+import RenderLogic from './RenderLogic'
 
 class counter extends Component {
-    constructor(props) {
-        super(props)
-    
-        this.state = {
-             count: 0
-        }
-    }
-    counter = () => {
-        this.setState({
-            count : this.state.count + 1
-        })
-    }
-
-
     
     render() {
+        const {count, counter} = this.props
         return (
             <div>
-                counter Value : {this.state.count}
-                <button onClick = {() => this.counter() } >click</button>
+             
+                counter Value : {count}
+                <button onClick = {counter } >click</button>
             </div>
         )
     }

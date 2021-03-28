@@ -19,6 +19,9 @@ class RenderLogic extends Component {
         
         return (
             <div>
+                {
+                    this.props.render(this.state.count , this.counter)
+                }
                 
             </div>
         )
